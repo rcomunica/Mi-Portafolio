@@ -1,0 +1,82 @@
+*{
+	font-family: 'Patrick Hand', cursive;
+}
+
+
+
+body{
+  
+  overflow-x: hidden;
+  background-color: #000;
+
+}
+
+.img__start{
+  position: relative;
+  top: 41px;
+  left: -2mm;
+  width: 50%;
+}
+
+/* Flecha inicio */
+
+.elemento{
+  width: 380px;
+  height: 250px;
+  margin:0 auto;
+  z-index: 100;
+  position: absolute;
+  top: 70%;
+  left: 48%;
+}
+
+
+
+.animatedColor {
+  color: white;
+  }
+  .flecha {
+  animation: arrow 1s ease-in-out infinite;
+  font-size: 35px;
+  color: #0560ff;
+  }
+  .flecha:hover{
+  animation:arrow 1s ease-out infinite !important;
+  color:#229bf4;
+}
+
+@keyframes arrow {
+  0% {
+  transform: translate(0px, 50px);
+  }
+  50% {
+  transform: translate(0px, 60px);
+  }
+  100% {
+  transform: translate(0px, 50px);
+  }
+  }
+
+/* FIN FLECHA */  
+
+
+
+.quiensoy-container{
+  background-color: #fff;
+  width: 100.2%;
+  position: relative;
+  top: 230px;
+  margin: -5px;
+  padding: 5px;
+}
+
+.quiensoy__title-h1{
+  margin-bottom: 10px;
+  position: relative;
+  top: 10px;
+
+}
+
+.quiensoy__text-p{
+  font-size: 18px;
+}
